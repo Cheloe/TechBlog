@@ -1,0 +1,203 @@
+root {
+    /* Colors */
+    --color-primary: #1e1e1e;
+    --color-secondary: #DBE6D0;
+    --color-tertiary: #9C9C9C;
+
+    /* Common Spacing */
+    --spacer-32: 32px;
+    --spacer-24: 24px;
+    --spacer-16: 16px;
+    --spacer-8: 8px;
+    --spacer-4: 4px;
+}
+
+/* Typography */
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--color-secondary);
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--color-tertiary);
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-primary);
+}
+
+.nav-active {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+nav {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+/* Layout */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--color-secondary);
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: var(--spacer-16);
+    border-radius: 4px;
+    background-color: var(--color-secondary);
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    padding: var(--spacer-16);
+    border-radius: 4px, 4px, 0px, 0px;
+    background-color: var(--color-primary);
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacer-8);
+    border-radius: 4px;
+    background-color: solid 2px var(--color-secondary);
+    color: var(--color-secondary);
+    border: solid 2px var(--color-primary);
+}
+
+.button:hover {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-secondary);
+}
+
+.form input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacer-8);
+    border-radius: 4px;
+    background-color: var(--color-secondary);
+    border: solid 2px var(--color-primary);
+}
+
+.form input:focus {
+    border: solid 3px var(--color-primary);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form input::placeholder {
+    color: var(--color-tertiary);
+}
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    height: 30vh;
+    margin-top: --spacer-24;
+    margin-bottom: --spacer-32;
+    padding: var(--spacer-16);
+    background-color: var(--color-tertiary);
+}
+
+.post-title input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    border-radius: 4px, 4px, 0px, 0px;
+    background-color: var(--color-primary);
+    border: solid 2px var(--color-primary);
+}
+
+.post-title input:hover {
+    cursor: text;
+}
+
+.post-title input::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--color-tertiary);
+}
+
+.post-body input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;    border-radius: 4px;
+    background-color: var(--color-secondary);
+    border: solid 2px var(--color-primary);
+}
+
+.post-body input:hover {
+    cursor: text;
+}
+
+.post-body input::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-primary);
+}
+
+.post button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacer-8);
+    border-radius: 0px, 0px, 4px;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    border: solid 2px var(--color-primary);
+}
