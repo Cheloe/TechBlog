@@ -88,7 +88,7 @@ nav {
     background-color: var(--color-primary);
 }
 
-.button {
+.btn {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -100,7 +100,7 @@ nav {
     border: solid 2px var(--color-primary);
 }
 
-.button:hover {
+.btn:hover {
     background-color: var(--color-primary);
     color: var(--color-secondary);
     cursor: pointer;
@@ -190,7 +190,7 @@ nav {
     color: var(--color-primary);
 }
 
-.post button {
+.btn-post {
     display: flex;
     flex-direction: row;
     align-items: center;
