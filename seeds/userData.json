@@ -1,0 +1,53 @@
+[
+    {
+        "name": "John",
+        "email": "john@example.com",
+        "password": "john12345"
+     },
+     {
+        "name": "Emily",
+        "email": "emily@gmail.com",
+        "password": "emily5678"
+     },
+     {
+        "name": "Alex",
+        "email": "alex@yahoo.com",
+        "password": "alexpass123"
+     },
+     {
+        "name": "Sarah",
+        "email": "sarah@example.com",
+        "password": "sarahpwd456"
+     },
+     {
+        "name": "David",
+        "email": "david@gmail.com",
+        "password": "david7890"
+     },
+     {
+        "name": "Emma",
+        "email": "emma@hotmail.com",
+        "password": "emma5678"
+     },
+     {
+        "name": "Michael",
+        "email": "michael@yahoo.com",
+        "password": "michaelpass123"
+     },
+     {
+        "name": "Olivia",
+        "email": "olivia@example.com",
+        "password": "oliviapwd456"
+     },
+     {
+        "name": "Daniel",
+        "email": "daniel@gmail.com",
+        "password": "daniel7890"
+     },
+     {
+        "name": "Sophia",
+        "email": "sophia@hotmail.com",
+        "password": "sophia5678"
+     }
+  ]
+  
