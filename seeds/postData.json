@@ -1,0 +1,86 @@
+[
+    {
+        "title": "The Rise of Blockchain Technology",
+        "post_content": "Blockchain technology has gained significant attention and is transforming various sectors...",
+        "date_created": "2023-07-13T10:30:00Z",
+        "user_id": 2
+     },
+     {
+        "title": "Exploring the Potential of Quantum Computing",
+        "post_content": "Quantum computing is poised to revolutionize computation and solve complex problems...",
+        "date_created": "2023-07-12T15:45:00Z",
+        "user_id": 3
+     },
+     {
+        "title": "Artificial Intelligence in Healthcare: Improving Patient Outcomes",
+        "post_content": "AI technologies are being leveraged in healthcare to enhance diagnostics, treatment, and patient care...",
+        "date_created": "2023-07-11T14:20:00Z",
+        "user_id": 4
+     },
+     {
+        "title": "The Impact of 5G Technology on the Internet of Things",
+        "post_content": "5G networks are enabling seamless connectivity and unlocking the full potential of IoT devices...",
+        "date_created": "2023-07-10T11:10:00Z",
+        "user_id": 5
+     },
+     {
+        "title": "The Evolution of E-Commerce: Trends and Innovations",
+        "post_content": "E-commerce has evolved rapidly, driven by advancements in technology and changing consumer behavior...",
+        "date_created": "2023-07-09T13:25:00Z",
+        "user_id": 1
+     },
+     {
+        "title": "Data Privacy in the Digital Age: Challenges and Solutions",
+        "post_content": "As digital data continues to grow, ensuring data privacy has become a critical concern...",
+        "date_created": "2023-07-08T09:55:00Z",
+        "user_id": 2
+     },
+     {
+        "title": "The Role of Augmented Reality in Education",
+        "post_content": "AR technology is reshaping the educational landscape, offering immersive and interactive learning experiences...",
+        "date_created": "2023-07-07T12:40:00Z",
+        "user_id": 3
+     },
+     {
+        "title": "Cybersecurity Best Practices for Businesses",
+        "post_content": "Protecting sensitive data and preventing cyber threats is crucial for businesses in today's digital landscape...",
+        "date_created": "2023-07-06T16:15:00Z",
+        "user_id": 4
+     },
+     {
+        "title": "The Future of Autonomous Vehicles",
+        "post_content": "Self-driving cars are paving the way for a future of safer and more efficient transportation...",
+        "date_created": "2023-07-05T14:50:00Z",
+        "user_id": 5
+     },
+     {
+        "title": "Cloud Computing: Advantages and Adoption Strategies",
+        "post_content": "Cloud computing offers scalability, flexibility, and cost-efficiency for businesses across industries...",
+        "date_created": "2023-07-04T11:30:00Z",
+        "user_id": 1
+     },
+     {
+        "title": "The Role of Big Data Analytics in Business Decision-Making",
+        "post_content": "Leveraging big data analytics enables businesses to gain valuable insights and make informed decisions...",
+        "date_created": "2023-07-03T15:20:00Z",
+        "user_id": 2
+     },
+     {
+        "title": "The Promise of Internet of Things in Smart Homes",
+        "post_content": "IoT devices are transforming homes into smart, connected spaces, enhancing convenience and efficiency...",
+        "date_created": "2023-07-02T12:10:00Z",
+        "user_id": 3
+     },
+     {
+        "title": "Machine Learning Applications in Financial Services",
+        "post_content": "ML algorithms are revolutionizing financial services, enabling fraud detection, risk assessment, and personalized recommendations...",
+        "date_created": "2023-07-01T14:40:00Z",
+        "user_id": 4
+     },
+     {
+        "title": "Emerging Technologies Shaping the Future of Work",
+        "post_content": "Technologies like AI, automation, and robotics are reshaping the workforce and creating new opportunities...",
+        "date_created": "2023-06-30T10:00:00Z",
+        "user_id": 5
+     }
+]
