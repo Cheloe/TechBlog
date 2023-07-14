@@ -1,21 +1,30 @@
-root {
+* {
     /* Colors */
     --color-primary: #1e1e1e;
-    --color-secondary: #DBE6D0;
+    --color-secondary: #dbe6d0;
     --color-tertiary: #9C9C9C;
 
-    /* Common Spacing */
-    --spacer-32: 32px;
-    --spacer-24: 24px;
-    --spacer-16: 16px;
-    --spacer-8: 8px;
-    --spacer-4: 4px;
+    /* Spacing */
+
+    /* increments of 4 or 8, mostly 8 
+    4px = 0.25rem
+    8px = 0.5rem
+    16px = 1rem
+    24px = 1.5rem
+    32px = 2rem
+    40px = 2.5rem
+    48px = 3rem
+    56px = 3.5rem*/
 }
 
-/* Typography */
+body {
+    background-color: var(--color-secondary);
+}
+
+/* ---- Typography ----- */
 
 h1 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
     font-size: 2.5rem;
     font-weight: 800;
     color: var(--color-secondary);
@@ -41,6 +50,15 @@ p {
     font-size: 1rem;
     font-weight: 400;
     color: var(--color-primary);
+    padding: 16px;
+}
+
+.card-header p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-secondary);
+    padding: 16px;
 }
 
 .nav-active {
@@ -50,6 +68,32 @@ p {
     text-decoration: underline;
 }
 
+a {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--color-secondary);
+    text-decoration: none;
+}
+
+/* --End Typography-- */
+
+/* ------ Containers and Layout ---------- */
+
+
+main {
+    background-color: var(--color-secondary);
+}
+
+/* Header */
+
+header {
+    background-color: var(--color-primary);
+    min-height: 10vh;
+    padding: 0px 12.5%;
+
+}
+
 nav {
     font-family: 'JetBrains Mono', monospace;
     font-size: 1rem;
@@ -57,34 +101,38 @@ nav {
     color: var(--color-primary);
 }
 
-/* Layout */
+/* Content */
 
 .container {
+    margin-top: 48px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    width: 100%;
+    min-height: 20vh;
     background-color: var(--color-secondary);
 }
 
 .card {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
     justify-content: left;
-    padding: var(--spacer-16);
-    border-radius: 4px;
+    border-radius: 8px;
+    min-height: 20vh;
+    width: 75%;
+    border: solid 2px var(--color-primary);
     background-color: var(--color-secondary);
 }
 
-.card-header {
-    display: flex;
+.card .card-header {
+    display: flex no-wrap;
     flex-direction: row;
-    align-items: left;
     justify-content: left;
-    padding: var(--spacer-16);
-    border-radius: 4px, 4px, 0px, 0px;
+    padding: 16px;
+    padding-left: 24px;
+    border-radius: 4px, 0px;
     background-color: var(--color-primary);
 }
 
@@ -93,7 +141,7 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: var(--spacer-8);
+    padding: 8px;
     border-radius: 4px;
     background-color: solid 2px var(--color-secondary);
     color: var(--color-secondary);
@@ -119,7 +167,7 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: var(--spacer-8);
+    padding: 8px;
     border-radius: 4px;
     background-color: var(--color-secondary);
     border: solid 2px var(--color-primary);
@@ -141,9 +189,9 @@ nav {
     justify-content: center;
     overflow-y: scroll;
     height: 30vh;
-    margin-top: --spacer-24;
-    margin-bottom: --spacer-32;
-    padding: var(--spacer-16);
+    margin-top: 24px;
+    margin-bottom: 32px;
+    padding: 16px;
     background-color: var(--color-tertiary);
 }
 
@@ -195,7 +243,7 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: var(--spacer-8);
+    padding: 8px;
     border-radius: 0px, 0px, 4px;
     background-color: var(--color-secondary);
     color: var(--color-primary);
