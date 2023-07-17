@@ -21,8 +21,8 @@
             <a href="/">Home</a> |
             <a href="/dashboard">Dashboard</a> |
             <a href="/logout">Logout</a>
-        {{else}}
-            <a href="/login">Login</a>
+          {{else}}
+              <a href="/api/login">Login</a>
         {{/if}}
       </nav>
     </header>
@@ -38,6 +38,8 @@
   <!-- Render script for logged in users only -->
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
+    {{else}}
+    <script src="/js/login.js"></script>
   {{/if}}
 </body>
 
