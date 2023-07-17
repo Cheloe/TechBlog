@@ -1,4 +1,18 @@
-<h1>Dashboard</h1>
+
+<div class="container">
+    <h4>Post somethig</h4>
+    <form class="card">
+       <input class="card-header post-title" type="text" placeholder="Pithy Title Here!" id="post-title">
+    <div class="card-body">
+      <textarea rows="9" class="post-body" id="post-body" placeholder="Tell us what you're thinking"></textarea>
+    <div class="post-buttons">
+      <button class="btn-post" type="submit" id="post-submit">Create Post</button>
+      <button class="btn-post" type="reset" id="post-reset">Reset</button>
+      </div>
+    </form>
+</div>
+
+<h4>Your Posts</h4>
 
 {{#each posts as |post|}}
   
@@ -11,3 +25,4 @@
   </div>
 
   {{/each}}
+</div>
