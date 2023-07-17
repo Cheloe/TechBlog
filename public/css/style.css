@@ -2,19 +2,7 @@
     /* Colors */
     --color-primary: #1e1e1e;
     --color-secondary: #dbe6d0;
-    --color-tertiary: #9C9C9C;
-
-    /* Spacing */
-
-    /* increments of 4 or 8, mostly 8 
-    4px = 0.25rem
-    8px = 0.5rem
-    16px = 1rem
-    24px = 1.5rem
-    32px = 2rem
-    40px = 2.5rem
-    48px = 3rem
-    56px = 3.5rem*/
+    --color-tertiary: #aeaeae;
 }
 
 body {
@@ -43,6 +31,15 @@ h3 {
     font-size: 1.5rem;
     font-weight: 800;
     color: var(--color-tertiary);
+    text-justify: left;
+}
+
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--color-primary);
+    margin-bottom: 32px;
 }
 
 p {
@@ -107,11 +104,11 @@ nav {
     margin-top: 48px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
     width: 100%;
     min-height: 20vh;
     background-color: var(--color-secondary);
+    padding: 24px 12.5%;
 }
 
 .card {
@@ -120,8 +117,9 @@ nav {
     align-items: left;
     justify-content: left;
     border-radius: 8px;
+    margin-bottom: 32px;
     min-height: 20vh;
-    width: 75%;
+    width: 100%;
     border: solid 2px var(--color-primary);
     background-color: var(--color-secondary);
 }
@@ -201,70 +199,68 @@ nav {
     color: var(--color-tertiary);
 }
 
-.post-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    overflow-y: scroll;
-    height: 30vh;
-    margin-top: 24px;
-    margin-bottom: 32px;
-    padding: 16px;
-    background-color: var(--color-tertiary);
-}
+/* ------ Dashboard Styles */
 
-.post-title input {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 10vh;
-    border-radius: 4px, 4px, 0px, 0px;
+#post-title {
+    padding: 32px;
+    border-radius: 4px 4px 0px 0px;
     background-color: var(--color-primary);
-    border: solid 2px var(--color-primary);
+    border-color: var(--color-primary);
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
-.post-title input:hover {
-    cursor: text;
-}
-
-.post-title input::placeholder {
+#post-title::placeholder {
     font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
-    font-weight: 800;
+    font-weight: 600;
     color: var(--color-tertiary);
 }
 
-.post-body input {
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+}
+
+.post-body {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 30vh;    border-radius: 4px;
+    height: 100%;
+    width: 100%;   
+    border-radius: 4px;
     background-color: var(--color-secondary);
-    border: solid 2px var(--color-primary);
-}
-
-.post-body input:hover {
-    cursor: text;
-}
-
-.post-body input::placeholder {
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
-    font-weight: 400;
     color: var(--color-primary);
+}
+
+textarea::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.post-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .btn-post {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 8px;
-    border-radius: 0px, 0px, 4px;
+    padding: 16px;
+    border-radius: 8px;
     background-color: var(--color-secondary);
     color: var(--color-primary);
-    border: solid 2px var(--color-primary);
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 16px 0px;
+    width: 48%;
+    justify-content: center;
+    border: 1px solid var(--color-primary);
 }
